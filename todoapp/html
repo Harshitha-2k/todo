@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+     <title>Todo App</title>
+</head>
+<body>
+   <header id="head">
+    <span class="task">WORKS TO BE DONE</span>
+    <div class="content">
+        <input type="text" id="inside" placeholder="task">
+        <input type="submit" id="submit" value="Add">
+    </div>
+   </header>
+   <section id="section">
+    <div><h2 class="task1">Task</h2></div>
+        <div class="task2">
+            <input class="text" placeholder="task">
+        <!-- <div class="task3">  -->
+        <button class="edit">edit</button>
+        <button class="delete">delete</button>
+        <!-- </div> -->
+        </div>
+        </div>
+    </div>
+   </section>
+   <script src="todo.js"></script>
+</body>
+</html>
