@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css">
-     <title>Todo App</title>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
    <header id="head">
     <span class="task">WORKS TO BE DONE</span>
-    <div class="content">
-        <input type="text" id="inside" placeholder="task">
-        <input type="submit" id="submit" value="Add">
-    </div>
+    <from class="content">
+        <input type="text" id="inside" value="">
+        <button class="btn" type="submit">
+        <i class="fa fa-plus-square" aria-hidden="true"></i>
+        </button>
+    </from>
    </header>
-   <section id="section">
-    <div><h2 class="task1">Task</h2></div>
-        <div class="task2">
-            <input class="text" placeholder="task">
-        <!-- <div class="task3">  -->
-        <button class="edit">edit</button>
-        <button class="delete">delete</button>
-        <!-- </div> -->
+   <section id="list">
+    <div><h2 class="tasks">Task</h2></div>
+     <div id="todo">
+        <!-- <div class="todotask">
+        <div class="contenttodo">   
+        <input type="text" value="task">
         </div>
+        <div class="buttonsitem"> 
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+        </div> -->
         </div>
     </div>
    </section>

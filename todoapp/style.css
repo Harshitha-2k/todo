@@ -2,72 +2,76 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:24rem;
+    width:20rem;
     padding:13px;
 }
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
+    width:25rem;
 }
 #head{
-    margin: 80px 350px;
+    margin:24px 315px;
     padding: 33px 102px;
     width: 30rem;
     color: black;
 }
-.task1{
+div.task2{
+    display: flex;
+    width:34rem;
+}
+.tasks{
     display: flex;
     justify-content: center;
     align-items: center;
     width:40px;
     margin: 13px;
 }
-#section{
+ #list{
     margin: 10px 280px;
     padding: 33px 102px;
-    width: 36rem;
+    width: 30rem;
 }
-.task2{
+.todotask{
     display: flex;
-    justify-content: center;
-    border:4px solid black;
-    border-radius: 9px;
-    width:27rem;
+    justify-content: space-between;
+    background-color: white;
+    border: 4px solid palevioletred;
+    width:500px;
+    border-radius: 8px;
 }
 #inside{
-    padding: 9px 10px;
+    padding: 7px 8px;
     margin: 6px 7px;
     width: 265px;
     border-radius: 12px;
-    border: 2px solid black;
+    border: 4px solid black;
 }
-input#submit{
-    padding: 8px 9px;
-    margin: 4px 4px;
-    width: 46px;
-    border-radius: 12px;
+i.fa.fa-plus-square{
+    font-size: 28px;
+}
+div.contenttodo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
+    padding:2px 0px;
 }
 input.text{
-    width: 455px;
+    width: 367px;
     border: 1px;
-    padding: 8px;
+    padding: 11px 8px;
 }
- button.edit{
-    width: 61px;
-    background-color: white;
-    border: 1px;
-    padding:10px;
+.edit-btn{
+  width:42px;
+  padding: 4px 2px;
+  background: white;
 }
-button.delete{
-    width: 51px;
-    background-color: white;
-    border: 1px;
-    padding: 10px;
-}
-div#task2{
-    background-color:;
+.delete-btn{
+    width:43px;
+    padding: 4px 8px;
+    background: white;
 }
 body{
     background-image:linear-gradient(450deg,#61196c,#ffc10799);
@@ -75,16 +79,22 @@ body{
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
-#submit:hover{
-   background-image: linear-gradient(450deg,#ffc10799,#611961);
+button.btn{
+    padding: 3px 4px;
+    border: 0px solid black;
+    background-color: white;
+}
+.btn:hover{
+   background:pink;
 }
 button:hover{
     background-image: linear-gradient(450deg,#ffc10799,#611961);
+    border-radius: 4px solid black;
 }
-#submit:active{
-    background-image: linear-gradient(450deg,pink,blueviolet);
+.btn:active{
+    background:#ffc10799;
 }
 button:active{
    background-image: linear-gradient(450deg,pink,blueviolet);
